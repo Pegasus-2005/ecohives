@@ -50,12 +50,15 @@ export default function Login() {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
+          // Reduced blur to 2px for sharpness. (Delete this line if you want 0 blur)
+          filter: 'blur(2px)', 
+          // Slightly scaled to hide the subtle blur edges
+          transform: 'scale(1.02)' 
         }}
       />
       
-      {/* UPDATED: Bright/Whitish Gradient Overlay */}
-      {/* Fades from transparent on the left, to a bright soft white on the right */}
-      <div className="absolute inset-0 z-0 bg-white/20 lg:bg-gradient-to-r lg:from-transparent lg:via-white/60 lg:to-white/95" />
+      {/* UPDATED: Overlay adjusted to show much more of the clear image on the left */}
+      <div className="absolute inset-0 z-0 bg-white/30 lg:bg-transparent lg:bg-gradient-to-r lg:from-transparent lg:via-white/20 lg:to-white/95" />
 
       {/* Form Container - Clean White & Green theme */}
       <div className="relative z-10 w-full max-w-md px-4 sm:px-0 lg:mr-24 xl:mr-32">
