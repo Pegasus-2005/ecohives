@@ -1,0 +1,5 @@
+{
+  "name": "EcoHives",
+  "description": "AI-Powered Waste Management Platform",
+  "requestFramePermissions": ["camera", "geolocation"]
+}
