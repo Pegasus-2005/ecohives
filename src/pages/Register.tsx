@@ -46,7 +46,7 @@ export default function Register() {
         style={{
           // Using a high-quality abstract AI-like eco background as a placeholder
           // since the Gemini share link cannot be directly embedded as an image source.
-          backgroundImage: `url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2564&auto=format&fit=crop')`,
+          backgroundImage: `url('Gemini_Generated_Image_lmpf5blmpf5blmpf.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           filter: 'blur(8px)',
