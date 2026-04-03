@@ -42,7 +42,7 @@ export default function Login() {
 
   return (
     <div className="min-h-screen relative flex items-center justify-center lg:justify-end overflow-hidden">
-      {/* Background Image Container - Kept EXACTLY as you liked it */}
+      {/* Background Image Container */}
       <div 
         className="absolute inset-0 z-0"
         style={{
@@ -53,10 +53,11 @@ export default function Login() {
         }}
       />
       
-      {/* Dark/Gradient Overlay - Kept EXACTLY as you liked it */}
-      <div className="absolute inset-0 z-0 bg-black/30 lg:bg-gradient-to-r lg:from-transparent lg:via-black/40 lg:to-black/70" />
+      {/* UPDATED: Bright/Whitish Gradient Overlay */}
+      {/* Fades from transparent on the left, to a bright soft white on the right */}
+      <div className="absolute inset-0 z-0 bg-white/20 lg:bg-gradient-to-r lg:from-transparent lg:via-white/60 lg:to-white/95" />
 
-      {/* ORIGINAL Form Container - Reverted back to your clean White & Green theme */}
+      {/* Form Container - Clean White & Green theme */}
       <div className="relative z-10 w-full max-w-md px-4 sm:px-0 lg:mr-24 xl:mr-32">
         <div className="bg-white/90 backdrop-blur-xl p-8 sm:rounded-3xl shadow-2xl border border-white/60">
           <div className="flex justify-center items-center mb-6">
